@@ -1,0 +1,29 @@
+# type (r;w;u;1-9),class,name,comment,QQ,ZZ,PBSB,ID,field1,part (m;s),type / templates,divider / values,unit,comment,field2,part (m;s),type / templates,divider / values,unit,comment,field3,part (m;s),type / templates,divider / values,unit,comment,field4,part (m;s),type / templates,divider / values,unit,comment,field5,part (m;s),type / templates,divider / values,unit,comment,field6,part (m;s),type / templates,divider / values,unit,comment,field7,part (m;s),type / templates,divider / values,unit,comment
+*b,broadcast,,,,FE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b,,solarInfo,wolf solar Info broadcast,,,5017,,b1,,UCH,,,?,b2,,UCH,,,??,tempKollektor,,D2C,,°C,Kollektortemperatur,tempKessel,,D2C,,°C,Kesseltemperatur,tempRueck,,D2C,,°C,Ruecklauftemperatur,,,,,,,,,,,,
+b,,solarertraege,,,,5018,,leistung,,D2B,,,Solarleistung,ertraglow,,UCH,,,ErtragTagLow,ertraghigh,,UCH,,,ErtragTagHigh,ertragsummelow,,UCH,,,SummeErtragLow,summertraghigh,,UCH,,,SummeErtragHigh,ertragsumme,,UCH,,,SummeErtragM,,,,,,
+
+
+#2018-06-01 14:02:39.450 [update info] received BC cmd: 71fe50180e0080008000800080008000800000
+#2018-06-01 14:02:39.452 [update notice] received unknown BC cmd: 71fe50180e0080008000800080008000800000
+
+#2018-06-01 14:03:24.100 [update info] received BC cmd: 71fe50171000013b0b9e0300800080008000800080
+#2018-06-01 14:03:24.102 [update notice] received update-read broadcast solarInfo QQ=71: 0;1;179.69;57.88
+
+
+
+#2018-06-02 06:14:01.368 [update info] received BC cmd: 71fe5018 0e 5d02 cd02 9401 3802 7200 0000 0000
+#2018-06-02 06:14:16.280 [update info] received BC cmd: 71fe5017 10 01 01 7504 3502 0080 0080 0080 0080 0080
+
+#2018-06-02 06:19:28.884 [update info] received BC cmd: 71fe5018 0e 5e02 c000 9801 3802 7200 0000 0000
+#2018-06-02 06:19:43.808 [update info] received BC cmd: 71fe50171001017804380200800080008000800080
+
+
+
+#71fe5018 0e 0080 0080 0080 0080 0080 0080 0000
+
+#71fe5018 0e 5d02 cd02 9401 3802 7200 0000 0000
+#71fe5018 0e 5e02 c000 9801 3802 7200 0000 0000
+
+#71fe5018 0e 6a02 8303 ad01 3802 7200 0000 0000
+#71fe5018 0e 6a02 9800 b001 3802 7200 0000 0000
